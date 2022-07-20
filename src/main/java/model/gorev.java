@@ -13,6 +13,15 @@ import java.util.Date;
 
 public class gorev {
     private Date createdate=new Date();
+
+    public Date getCreatedate() {
+        return createdate;
+    }
+
+    public void setCreatedate(Date createdate) {
+        this.createdate = createdate;
+    }
+
     @Id
     private String id;
 
