@@ -4,20 +4,14 @@ import GorevServis.GorevServis;
 import lombok.AllArgsConstructor;
 import model.gorev;
 import org.apache.http.HttpStatus;
-import org.elasticsearch.snapshots.SnapshotMissingException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.namespace.QName;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
 
-@SpringBootConfiguration
+//@SpringBootConfiguration
 @RequestMapping(value = "/gorevtanim")
 @RestController
 @AllArgsConstructor
@@ -64,4 +58,3 @@ public class GorevTanimBE {
         }
 
     }
-
